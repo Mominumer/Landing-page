@@ -7,7 +7,7 @@ const CallToAction = () => {
     <section
       className="
         relative
-        mt-[2vh]
+        mt-[10vh]
         w-full min-h-[60vh] 
         flex flex-col items-center justify-center 
         px-4 py-16

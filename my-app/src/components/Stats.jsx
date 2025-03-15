@@ -11,9 +11,9 @@ const Stats = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* Main Content Container */}
+
       <div className="max-w-6xl flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-24 ">
-        {/* Text Content - Left Side */}
+
         <div className="flex-1 flex flex-col gap-6 text-left">
           <h2 className="text-4xl font-md text-black">
             Breaking Barriers to <br />
@@ -27,7 +27,6 @@ const Stats = () => {
           </p>
         </div>
 
-        {/* Stats - Right Side */}
         <div className="flex-1 flex flex-row flex-wrap justify-center gap-8 lg:gap-12 mt-8 lg:mt-0">
           <p className="text-gray-700 text-md font-light text-left">
             We're not just offering a service; we're creating a lifeline. Our
@@ -35,7 +34,7 @@ const Stats = () => {
             the way of recovery—whether it's stigma, inconvenience, or lack of
             access to quality care.
           </p>
-          {/* Stats - Right Side */}
+  
           <div className="flex-1 w-full flex flex-row justify-between gap-4 lg:gap-8 mt-8 lg:mt-0">
             <div className="flex flex-col items-start flex-1">
               <span className="text-4xl font-bold text-teal-500">500+</span>

@@ -4,10 +4,10 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-white text-gray-800 border-t border-gray-200">
-      {/* Top Section */}
+
       <div className="max-w-6xl mx-auto px-4 py-6">
         <div className="flex flex-wrap justify-between items-start gap-4">
-          {/* Left Column: Logo + Description */}
+
           <div className="w-full md:w-3/12">
             <h2 className="text-xl font-bold mb-2">LOGO</h2>
             <p className="text-xs leading-relaxed">
@@ -17,9 +17,9 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Center Section: Quick Links, Other Links, Contact */}
+
           <div className="flex flex-wrap w-6/12 justify-between">
-            {/* Quick Links */}
+ 
             <div className="w-4/12 md:w-2/12">
               <h3 className="text-sm font-semibold mb-2">Quick Links</h3>
               <ul className="space-y-1 text-xs">
@@ -31,7 +31,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Other Links */}
             <div className="w-4/12 md:w-2/12">
               <h3 className="text-sm font-semibold mb-2">Other Links</h3>
               <ul className="space-y-1 text-xs">
@@ -43,7 +42,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Contact + Social Media */}
+
             <div className="w-4/12 md:w-2/12">
               <h3 className="text-sm font-semibold mb-2">Contact</h3>
               <p className="text-xs mb-2">+1 (865) 759 9386</p>
@@ -69,11 +68,11 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Section */}
+
       <div className="border-t border-gray-200 py-3">
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs text-gray-500">
-            {/* Left */}
+ 
             <div className="text-center sm:text-left">
               ©2025 - Recovery Delivered. All Rights Reserved
             </div>

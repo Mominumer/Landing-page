@@ -9,9 +9,9 @@ const Testimonials = () => {
   return (
     <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
-        {/* Top Section */}
+ 
         <div className="flex flex-col lg:flex-row items-center gap-8">
-          {/* Text Content */}
+
           <div className="text-left flex-1">
             <h2 className="text-sm font-semibold text-teal-500 tracking-wider uppercase">
               WELCOME TO RECOVERY DELIVERED
@@ -30,7 +30,6 @@ const Testimonials = () => {
             </p>
           </div>
 
-          {/* Video Placeholder */}
           <div className="flex-1 l lg:w-auto">
             <div className=" h-[300px] lg:w-[696px] lg:h-[395px] bg-gray-200 rounded-md flex items-center justify-center relative overflow-hidden">
               <img
@@ -39,15 +38,14 @@ const Testimonials = () => {
                 className="w-full h-full object-cover"
               />
 
-              {/* Teal Play Button with Concentric Circles */}
               <div className="absolute inset-0 flex items-center justify-center">
-                {/* Outer Translucent Circle */}
+
                 <div className="w-32 h-32 bg-teal-500/20 rounded-full absolute" />
 
-                {/* Middle Translucent Circle */}
+
                 <div className="w-24 h-24 bg-teal-500/30 rounded-full absolute" />
 
-                {/* Inner Solid Circle (Button) */}
+
                 <div className="relative w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-teal-600 transition-colors">
                   <svg
                     className="w-13 h-13 text-white fill-white"
@@ -69,14 +67,14 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* Testimonials Cards */}
+
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 group">
-          {/* Card 1 */}
+
           <div
             className=" rounded-md p-6 shadow-sm flex flex-col transition-all duration-300 ease-in-out 
                   group-hover:opacity-50 hover:opacity-100 hover:-translate-y-2 hover:-rotate-2 hover:scale-105"
           >
-            <StarsRating />
+
 
             <p className="mt-4 text-gray-700">
               “Recovery Delivered is great! I cannot believe how fast and easy
@@ -94,7 +92,6 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Card 2 */}
           <div
             className=" rounded-md p-6 shadow-sm flex flex-col transition-all duration-300 ease-in-out 
                   group-hover:opacity-50 hover:opacity-100 hover:-translate-y-2 hover:-rotate-2 hover:scale-105"
@@ -116,7 +113,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Card 3 */}
+
           <div
             className=" rounded-md p-6 shadow-sm flex flex-col transition-all duration-300 ease-in-out 
                   group-hover:opacity-50 hover:opacity-100 hover:-translate-y-2 hover:-rotate-2 hover:scale-105s"

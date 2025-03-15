@@ -9,7 +9,7 @@ import NBC from '../assets/NBC.png';
 const Featured = () => {
   return (
     <div className="max-w-screen-xl mx-auto h-[150vh] w-full bg-white py-12 px-6 md:px-20">
-      {/* Inline keyframes for the marquee effect */}
+
       <style>
         {`
           @keyframes marquee {
@@ -19,7 +19,6 @@ const Featured = () => {
         `}
       </style>
 
-      {/* Top Section: Left-Aligned Text & Right-Aligned Sliding Logos */}
       <div className="flex justify-between items-center">
         {/* Left Side: Text */}
         <div className="text-left">
@@ -45,7 +44,7 @@ const Featured = () => {
         </div>
       </div>
 
-      {/* Middle Section (States We / Currently Serve / Description) - Centered */}
+
       <div className="mt-12 text-center">
         <h3 className="text-green-600 text-sm font-semibold uppercase">States We</h3>
         <h2 className="text-3xl font-bold mt-2">Currently Serve</h2>
@@ -57,24 +56,18 @@ const Featured = () => {
         </p>
       </div>
 
-      {/* Bottom Section (Toronto + Map) */}
       <div className="mt-8 flex flex-col md:flex-row justify-center items-start gap-8">
-        {/* Left Side: Toronto Image + Location Info */}
+  
         <div className="md:w-1/3">
           <img
             src={Toronto}
             alt="Toronto"
-            className="w-full rounded-lg shadow-lg"
+            className="w-full rounded-lg"
           />
-          <div className="text-left mt-4">
-            <h3 className="text-xl font-semibold">Toronto</h3>
-            <a href="#" className="text-green-600 underline">
-              Ottawa St. and Homer Watson Blvd.
-            </a>
-          </div>
+    
         </div>
 
-        {/* Right Side: Map */}
+   
         <div className="md:w-2/3 md:ml-8">
           <img
             src={map}

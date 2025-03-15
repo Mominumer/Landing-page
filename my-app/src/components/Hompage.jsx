@@ -6,7 +6,7 @@ import Section1 from "../assets/Section1.png";
 const Homepage = () => {
   return (
     <div className="relative w-full h-screen min-h-[135vh]">
-      {/* Background Image */}
+ 
       <div
         className="absolute inset-0 bg-cover bg-center rounded-md "
         style={{
@@ -18,9 +18,9 @@ const Homepage = () => {
 
       <Navbar />
 
-      {/* Content Section */}
+ 
       <div className="relative z-10 flex flex-col justify-center h-full max-w-6xl mx-auto  py-16 px-4 sm:px-6 lg:px-8 pt-65 pl-25 ">
-        {/* Text Content */}
+
         <div className="md:w-1/2 text-white space-y-6">
           <h2 className="text-md font-light">
             No lines. Less hassle, Lower costs.

@@ -3,7 +3,7 @@ import Section4 from "../assets/Section4.gif";
 
 const Treatment = () => {
   return (
-    <section className="relative w-full bg-gradient-to-r from-white to-[#49C7AB] py-16 px-4 h-[120vh]">
+    <section className="relative w-full bg-gradient-to-r from-white to-[#49C7AB] py-16 px-4 h-[130vh]">
       {/* Header Section */}
       <div className="max-w-6xl mx-auto flex items-center justify-between mb-4">
         <h2 className="text-teal-500 text-lg font-semibold tracking-wider ml-[3vh]">
